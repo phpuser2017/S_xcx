@@ -1,2 +1,6 @@
 <!--components/zan/index.wxml-->
-<text>components/zan/index.wxml</text>
+<view class='like' bindtap='taplike' data-code='200'>
+  <image class='like' src='../images/like.png'></image>
+  <text>9</text>
+</view>
+
