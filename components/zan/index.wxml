@@ -1,6 +1,6 @@
 <!--components/zan/index.wxml-->
 <view class='like' bindtap='taplike' data-code='200'>
-  <image class='like' src='../images/like.png'></image>
-  <text>9</text>
+  <image class='like' src="{{like ? '../images/like.png' : '../images/like@dis.png'}}"></image>
+  <text>{{count}}</text>
 </view>
 
