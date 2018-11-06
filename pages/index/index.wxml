@@ -1,4 +1,4 @@
 
 <view>
-  <c-like />
+  <c-like like="{{islike}}" count="{{count}}" />
 </view>
