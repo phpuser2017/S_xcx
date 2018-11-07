@@ -19,8 +19,9 @@ class Http{
       },
       success:(res)=>{
         let code=res.statusCode.toString()
-        if(code.startsWith('2')){
-          params.success(res)
+        if(code.startsWith('4')){
+          //将数据传入回调函数
+          params.success && params.success(res)
         }else{
           let errcode=res.data.error_code
           this._show_err(errcode)

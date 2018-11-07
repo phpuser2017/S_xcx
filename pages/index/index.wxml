@@ -1,4 +1,7 @@
 
-<view>
-  <c-like like="{{islike}}" count="{{count}}" />
+<view class='header'>
+  <c-date class='date'/>
+  <c-like class='like' bindlike='tapzan' like="{{islike}}" count="{{count}}" />
 </view>
+<c-movie img="{{moviepic}}" text="{{text}}"/>
+<c-nav />
