@@ -1,0 +1,6 @@
+<!--components/classic/nav/index.wxml-->
+<view class='container'>
+  <image bindtap='tappre' class='icon' src="{{pre ? disprepic : prepic}}"></image>
+  <text class='title'>{{title}}</text>
+  <image bindtap='tapnext' class='icon' src="{{next ? disnextpic : nextpic}}"></image>
+</view>

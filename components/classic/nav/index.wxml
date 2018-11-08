@@ -1,6 +1,0 @@
-<!--components/classic/nav/index.wxml-->
-<view>
-  <image></image>
-  <text>李安</text>
-  <image></image>
-</view>

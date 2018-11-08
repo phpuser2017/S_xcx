@@ -1,0 +1,6 @@
+<view>
+  <image src="{{backpic}}"></image>
+  <image src="{{playpic}}"></image>
+  <image src="../../images/music@tag.png"></image>
+  <text>{{content}}</text>
+</view>

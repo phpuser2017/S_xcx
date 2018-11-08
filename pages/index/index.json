@@ -2,7 +2,7 @@
   "usingComponents":{
     "c-like":"/components/zan/index",
     "c-movie": "/components/classic/movie/index",
-    "c-date": "/components/classic/date/index",
-    "c-nav": "/components/classic/nav/index"
+    "c-date": "/components/date/index",
+    "c-nav": "/components/nav/index"
   }
 }

@@ -8,7 +8,10 @@ Page({
     count:33,
     islike:false,
     moviepic:'../../images/movie1@2x.png',
-    text:'饮食男女饮食男女饮食男女饮食男女'
+    text:'饮食男女饮食男女饮食男女饮食男女',
+    title:'张三',
+    pre:true,
+    next:false
   },
   onLoad: function (options) {
     classicmodel.getlastnew((res)=>{
@@ -22,5 +25,11 @@ Page({
       artid:33,
       catgory:100
     })
+  },
+  navpre: function (e) {
+    console.log(e)
+  },
+  navnext: function (e) {
+    console.log(e)
   }
 })
