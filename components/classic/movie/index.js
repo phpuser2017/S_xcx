@@ -1,11 +1,12 @@
 // components/classic/movie/index.js
+import {commonbeh} from '../common-behavior.js'
 Component({
   /**
    * 组件的属性列表
    */
+  behaviors:[commonbeh],
   properties: {
-    img:String,
-    text:String
+    
   },
 
   /**

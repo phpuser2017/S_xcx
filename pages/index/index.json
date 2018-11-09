@@ -2,6 +2,8 @@
   "usingComponents":{
     "c-like":"/components/zan/index",
     "c-movie": "/components/classic/movie/index",
+    "c-music": "/components/classic/music/index",
+    "c-sentence": "/components/classic/sentence/index",
     "c-date": "/components/date/index",
     "c-nav": "/components/nav/index"
   }

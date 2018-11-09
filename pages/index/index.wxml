@@ -4,6 +4,8 @@
     <c-date class='date'/>
     <c-like class='like' bindlike='tapzan' like="{{islike}}" count="{{count}}" />
   </view>
-  <c-movie img="{{moviepic}}" text="{{text}}"/>
+  <c-movie ishidden="{{hideenmovie}}" img="{{moviepic}}" text="{{text}}"/>
+  <c-music ishidden="{{hideenmusic}}" img="{{musicpic}}" text="{{text}}"/>
+  <c-sentence ishidden="{{hideensentence}}" img="{{senpic}}" text="{{text}}"/>
   <c-nav pre="{{pre}}" bindpre='navpre' next="{{next}}" title="{{title}}" bindnext='navnext' class='musicnav'/>
 </view>

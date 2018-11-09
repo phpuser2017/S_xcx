@@ -9,7 +9,16 @@ class LikeModel extends Http {
       method:'POST',
       data:{
         art_id:params.artid,
-        type:params.catgory
+        type: params.category
+      }
+    })
+  }
+  //获取当前期刊的喜欢信息（当前用户是喜欢还是不喜欢、总的喜欢人数）
+  getNowLikestatus(params){
+    this.request({
+      url: 'classic/' + params.category + '/' +params.artid+'/favor',
+      success:(res)=>{
+        params.sCallback && params.sCallback(res)
       }
     })
   }
