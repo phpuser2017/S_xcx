@@ -33,10 +33,14 @@ class Http{
     })
   }
   _show_err(errcode){
+    if (!errcode) {
+      errcode = 1
+    }
+    const tip = tipscode[errcode]
     wx.showToast({
-      title: tipscode[errcode],
-      icon:'none',
-      duration:2000
+      title: tip ? tip : tipscode[1],//没有错误码时直接返回第一个默认错误提示
+      icon: 'none',
+      duration: 2000
     })
   }
 }

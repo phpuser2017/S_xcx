@@ -3,6 +3,7 @@ const config={
   Appkey:'KOLDaSADSDLWWbF',
   Claasic:'classic/latest',
   like:'like',
-  nolike:'like/cancel'
+  nolike:'like/cancel',
+  hotlist:'book/hot_list'
 }
 export{config}

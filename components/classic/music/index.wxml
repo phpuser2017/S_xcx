@@ -1,6 +1,6 @@
-<view hidden="{{ishidden}}">
-  <image src="{{backpic}}"></image>
-  <image src="{{stauspic}}"></image>
-  <image src="../../images/music@tag.png"></image>
-  <text>{{text}}</text>
+<view class='container' wx:if="{{!ishidden}}">
+  <image class="backimg {{playing ? 'rotation' : ''}}" src="{{backpic}}"></image>
+  <image class='playimg' bindtap='plaimusic' src="{{playing ? stauspic : waitpic}}"></image>
+  <image class='tag' src="../../images/music@tag.png"></image>
+  <text class='text'>{{text}}</text>
 </view>
